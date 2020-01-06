@@ -1,4 +1,4 @@
-package sample;
+package soma;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
@@ -18,6 +18,6 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        log.error("hi");
+        log.error("Soma application started.");
     }
 }

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>info.sroman</groupId>
-    <artifactId>sample</artifactId>
+    <artifactId>soma</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sample</name>
+    <name>soma</name>
 
     <properties>
         <java.version>1.8</java.version>

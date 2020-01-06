@@ -1,4 +1,4 @@
-package sample.http.retrofit.service;
+package soma.http.retrofit.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import retrofit2.Retrofit;
 @Configuration
 public class SomeServiceConfiguration {
 
-    @Value("${retrofit.some_service.url}")
+    @Value("${retrofit.psyche.service.url}")
     String url;
 
     @Bean

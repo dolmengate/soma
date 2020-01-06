@@ -1,4 +1,4 @@
-package sample.http.retrofit.service;
+package soma.http.retrofit.service;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -6,5 +6,5 @@ import retrofit2.http.GET;
 public interface ISomeService {
 
     @GET
-    Call<String> someServiceEndpoint();
+    Call<String> echo();
 }
